@@ -108,7 +108,7 @@ python main.py
 
 1. **`启动 Word`**: 打开 `家校联系.docx` 日志文件，并将其存入一个变量 (`%WordInstance%`) 中，以便后续操作。
 
-2. #### **`从 CSV 文件读取`**: 读取 `dispatch_list.csv` 指令清单的全部内容（`Student\_Name,Weixin_Contacts_Primary,Weixin_Contacts_Secondary,Weixin_Contacts_Tertiary`），并将其存入一个数据表变量 (`%DispatchTable%`) 中。
+2. #### **`从 CSV 文件读取`**: 读取 `dispatch_list.csv` 指令清单的全部内容（`Student_Name,Weixin_Contacts_Primary,Weixin_Contacts_Secondary,Weixin_Contacts_Tertiary`），并将其存入一个数据表变量 (`%DispatchTable%`) 中。
 
 **主循环 (Main Loop)**
 
@@ -121,7 +121,7 @@ python main.py
 > **a. 读取学生成绩单**
 >
 > 1. **`设置变量 Success = false`**: 在处理每个新学生时，首先重置成功标志。
-> 2. **`从文件读取文本`**: 根据当前行中 `text_file_path` 列提供的**绝对路径**，读取对应 学生姓名+成绩 `.txt` 成绩单的全部内容，并存入文本变量 %$txtContents$%。
+> 2. **`从文件读取文本`**: 根据当前行中 `text_file_path` 列提供的**绝对路径**，读取对应 学生姓名+成绩 `.txt` 成绩单的全部内容，并存入文本变量 `%txtContents%`。
 >
 > **b.自动查找微信联系人**
 >
@@ -132,7 +132,7 @@ python main.py
 > **c. 发送信息**
 >
 > - 在成功找到联系人并进入聊天窗口后，flow会执行：
->   1. **发送成绩单**: 使用 `设置剪贴板文本` 将 %$txtContents$% 的内容复制到剪贴板，然后模拟 `Ctrl+V` 粘贴并发送。
+>   1. **发送成绩单**: 使用 `设置剪贴板文本` 将 `%txtContents%` 的内容复制到剪贴板，然后模拟 `Ctrl+V` 粘贴并发送。
 >   2. **发送PDF**: 使用**模拟手动复制文件**的稳定方法（打开文件夹->选中文件->复制->粘贴）来发送通用的 `班级成绩分析.pdf`。
 >
 > **d. 截图与存档**
@@ -258,6 +258,7 @@ graph TD
 ---
 
 ⭐ 如果这个项目对你有帮助，请给个Star！
+
 
 
 
