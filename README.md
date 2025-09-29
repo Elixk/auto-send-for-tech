@@ -106,9 +106,9 @@ python main.py
 
 *在主循环开始前，机器人会执行一次准备工作。*
 
-1. **`启动 Word`**: 打开 `家校联系.docx` 日志文件，并将其存入一个变量 (%$WordInstance$%) 中，以便后续操作。
+1. **`启动 Word`**: 打开 `家校联系.docx` 日志文件，并将其存入一个变量 (`%WordInstance%`) 中，以便后续操作。
 
-2. #### **`从 CSV 文件读取`**: 读取 `dispatch_list.csv` 指令清单的全部内容（`Student\_Name,Weixin\_Contacts\_Primary,Weixin\_Contacts\_Secondary,Weixin\_Contacts\_Tertiary`），并将其存入一个数据表变量 (`%DispatchTable%`) 中。
+2. #### **`从 CSV 文件读取`**: 读取 `dispatch_list.csv` 指令清单的全部内容（`Student\_Name,Weixin_Contacts_Primary,Weixin_Contacts_Secondary,Weixin_Contacts_Tertiary`），并将其存入一个数据表变量 (`%DispatchTable%`) 中。
 
 **主循环 (Main Loop)**
 
@@ -258,6 +258,7 @@ graph TD
 ---
 
 ⭐ 如果这个项目对你有帮助，请给个Star！
+
 
 
 
