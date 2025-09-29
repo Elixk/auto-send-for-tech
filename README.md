@@ -24,11 +24,11 @@
 
 
 
-## 🚀 工作流演示视频
+## 🎞️ flow show-how
 
-[![自动化家校通工作流演示](https://github.com/YourUsername/YourRepositoryName/blob/main/assets/demo_cover.png?raw=true)](https://www.bilibili.com/video/BVxxxxxxxxxx/)
+[![自动化家校通工作流演示](https://github.com/Elixk/auto-send-for-tech/blob/eed12b53eee09a875b42f5b60a57c5b298ef7406/image/cover.jpg?raw=true)](https://www.bilibili.com/video/BV1ReHczeEV2/?spm_id_from=333.1387.homepage.video_card.click)
 
-点击上方图片，观看详细操作演示 👆
+点击观看演示 👆
 
 
 
@@ -258,4 +258,5 @@ graph TD
 ---
 
 ⭐ 如果这个项目对你有帮助，请给个Star！
+
 
