@@ -24,6 +24,14 @@
 
 
 
+## 🚀 工作流演示视频
+
+[![自动化家校通工作流演示](https://github.com/YourUsername/YourRepositoryName/blob/main/assets/demo_cover.png?raw=true)](https://www.bilibili.com/video/BVxxxxxxxxxx/)
+
+点击上方图片，观看详细操作演示 👆
+
+
+
 **📝 to-do list**
 
 | Status | Priority | Category | Feature / Task                                         | Notes                  |
@@ -250,3 +258,4 @@ graph TD
 ---
 
 ⭐ 如果这个项目对你有帮助，请给个Star！
+
