@@ -108,11 +108,11 @@ python main.py
 
 1. **`启动 Word`**: 打开 `家校联系.docx` 日志文件，并将其存入一个变量 (%$WordInstance$%) 中，以便后续操作。
 
-2. #### **`从 CSV 文件读取`**: 读取 `dispatch_list.csv` 指令清单的全部内容（$Student\_Name,Weixin\_Contacts\_Primary,Weixin\_Contacts\_Secondary,Weixin\_Contacts\_Tertiary$），并将其存入一个数据表变量 (%$DispatchTable$%) 中。
+2. #### **`从 CSV 文件读取`**: 读取 `dispatch_list.csv` 指令清单的全部内容（`Student\_Name,Weixin\_Contacts\_Primary,Weixin\_Contacts\_Secondary,Weixin\_Contacts\_Tertiary`），并将其存入一个数据表变量 (`%DispatchTable%`) 中。
 
 **主循环 (Main Loop)**
 
-> *flow开始 `For each` 循环，逐一处理 %$DispatchTable$% 中的每一行（即每一位学生）。*
+> *flow开始 `For each` 循环，逐一处理 `%DispatchTable%` 中的每一行（即每一位学生）。*
 
 **循环内核心逻辑 (Core Logic Inside the Loop)**
 
@@ -258,5 +258,6 @@ graph TD
 ---
 
 ⭐ 如果这个项目对你有帮助，请给个Star！
+
 
 
